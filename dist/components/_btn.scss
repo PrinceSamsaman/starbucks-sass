@@ -1,0 +1,55 @@
+.btn{
+    background-color: $clr-primary;
+    padding: .6rem 1.8rem;
+    border-radius: 3rem;
+    border: 1px solid;
+    display: inline-block;
+    transition: 300ms;
+    &-outlinelight{
+        background-color: transparent;
+        color: $clr-light;
+        border-color: $clr-light;  
+        &:hover{
+            background-color: rgba(white, .1);
+        }        
+    }
+    &-primary{
+        background-color: $clr-primary;
+        color: $clr-light;
+        border-color: $clr-primary;   
+        transition: 300ms;
+    }
+    &-dark{
+        background-color: $clr-dark;
+        color: $clr-light;
+        border-color: $clr-dark;   
+        transition: 300ms;
+        &:hover{
+            opacity: .8;
+        } 
+
+    }
+    &-outlinelight2{
+        background-color: transparent;
+        color: $clr-light;
+        border-color: $clr-light;   
+        transition: 300ms;
+
+    }
+    &-outlinedark{
+        background-color: transparent;
+        color: $clr-dark;
+        border-color: $clr-dark;
+        &:hover{
+            background-color: darken($clr-light, 5);
+        } 
+    }
+    &-outlinegreen{
+        background-color: transparent;
+        color: #1E3932;
+        border-color: #1E3932;
+        &:hover{
+            background-color: rgba(white, .1);
+        } 
+    }
+}
